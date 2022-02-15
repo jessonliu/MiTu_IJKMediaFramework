@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5A04E1F27980AFB005694B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A04E1E27980AFB005694B6 /* AppDelegate.m */; };
+		A5A04E2227980AFB005694B6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A04E2127980AFB005694B6 /* SceneDelegate.m */; };
+		A5A04E2527980AFB005694B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A04E2427980AFB005694B6 /* ViewController.m */; };
+		A5A04E2827980AFB005694B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A04E2627980AFB005694B6 /* Main.storyboard */; };
+		A5A04E2A27980AFE005694B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A04E2927980AFE005694B6 /* Assets.xcassets */; };
+		A5A04E2D27980AFE005694B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A04E2B27980AFE005694B6 /* LaunchScreen.storyboard */; };
+		A5A04E3027980AFE005694B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A04E2F27980AFE005694B6 /* main.m */; };
+		EA793D1E4252FCCD098A2740 /* Pods_MiTuIJKMediaExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDF553D17A5AE190256AB6A /* Pods_MiTuIJKMediaExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		066F33E2A380DE8D83424D64 /* Pods-MiTuIJKMediaExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiTuIJKMediaExample.debug.xcconfig"; path = "Target Support Files/Pods-MiTuIJKMediaExample/Pods-MiTuIJKMediaExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2182E5910D2C3E0ACA424D09 /* Pods-MiTuIJKMediaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiTuIJKMediaExample.release.xcconfig"; path = "Target Support Files/Pods-MiTuIJKMediaExample/Pods-MiTuIJKMediaExample.release.xcconfig"; sourceTree = "<group>"; };
+		2FDF553D17A5AE190256AB6A /* Pods_MiTuIJKMediaExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiTuIJKMediaExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A04E1A27980AFB005694B6 /* MiTuIJKMediaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiTuIJKMediaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A04E1D27980AFB005694B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A04E1E27980AFB005694B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A04E2027980AFB005694B6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A5A04E2127980AFB005694B6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A5A04E2327980AFB005694B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5A04E2427980AFB005694B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5A04E2727980AFB005694B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5A04E2927980AFE005694B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A04E2C27980AFE005694B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5A04E2E27980AFE005694B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A04E2F27980AFE005694B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A04E1727980AFB005694B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA793D1E4252FCCD098A2740 /* Pods_MiTuIJKMediaExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B71220DFCC877D6BDFC4397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				066F33E2A380DE8D83424D64 /* Pods-MiTuIJKMediaExample.debug.xcconfig */,
+				2182E5910D2C3E0ACA424D09 /* Pods-MiTuIJKMediaExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9CF9172A2BA0E16A6E5D0364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FDF553D17A5AE190256AB6A /* Pods_MiTuIJKMediaExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A04E1127980AFB005694B6 = {
+			isa = PBXGroup;
+			children = (
+				A5A04E1C27980AFB005694B6 /* MiTuIJKMediaExample */,
+				A5A04E1B27980AFB005694B6 /* Products */,
+				3B71220DFCC877D6BDFC4397 /* Pods */,
+				9CF9172A2BA0E16A6E5D0364 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A04E1B27980AFB005694B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A04E1A27980AFB005694B6 /* MiTuIJKMediaExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A04E1C27980AFB005694B6 /* MiTuIJKMediaExample */ = {
+			isa = PBXGroup;
+			children = (
+				A5A04E1D27980AFB005694B6 /* AppDelegate.h */,
+				A5A04E1E27980AFB005694B6 /* AppDelegate.m */,
+				A5A04E2027980AFB005694B6 /* SceneDelegate.h */,
+				A5A04E2127980AFB005694B6 /* SceneDelegate.m */,
+				A5A04E2327980AFB005694B6 /* ViewController.h */,
+				A5A04E2427980AFB005694B6 /* ViewController.m */,
+				A5A04E2627980AFB005694B6 /* Main.storyboard */,
+				A5A04E2927980AFE005694B6 /* Assets.xcassets */,
+				A5A04E2B27980AFE005694B6 /* LaunchScreen.storyboard */,
+				A5A04E2E27980AFE005694B6 /* Info.plist */,
+				A5A04E2F27980AFE005694B6 /* main.m */,
+			);
+			path = MiTuIJKMediaExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A04E1927980AFB005694B6 /* MiTuIJKMediaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A04E3327980AFE005694B6 /* Build configuration list for PBXNativeTarget "MiTuIJKMediaExample" */;
+			buildPhases = (
+				24C6644EFE0FD1DCE13169AB /* [CP] Check Pods Manifest.lock */,
+				A5A04E1627980AFB005694B6 /* Sources */,
+				A5A04E1727980AFB005694B6 /* Frameworks */,
+				A5A04E1827980AFB005694B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiTuIJKMediaExample;
+			productName = MiTuIJKMediaExample;
+			productReference = A5A04E1A27980AFB005694B6 /* MiTuIJKMediaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A04E1227980AFB005694B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A5A04E1927980AFB005694B6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A5A04E1527980AFB005694B6 /* Build configuration list for PBXProject "MiTuIJKMediaExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A04E1127980AFB005694B6;
+			productRefGroup = A5A04E1B27980AFB005694B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A04E1927980AFB005694B6 /* MiTuIJKMediaExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A04E1827980AFB005694B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A04E2D27980AFE005694B6 /* LaunchScreen.storyboard in Resources */,
+				A5A04E2A27980AFE005694B6 /* Assets.xcassets in Resources */,
+				A5A04E2827980AFB005694B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C6644EFE0FD1DCE13169AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiTuIJKMediaExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A04E1627980AFB005694B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A04E2527980AFB005694B6 /* ViewController.m in Sources */,
+				A5A04E1F27980AFB005694B6 /* AppDelegate.m in Sources */,
+				A5A04E3027980AFE005694B6 /* main.m in Sources */,
+				A5A04E2227980AFB005694B6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5A04E2627980AFB005694B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A04E2727980AFB005694B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A04E2B27980AFE005694B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A04E2C27980AFE005694B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A04E3127980AFE005694B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5A04E3227980AFE005694B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A04E3427980AFE005694B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066F33E2A380DE8D83424D64 /* Pods-MiTuIJKMediaExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TFF7FMGCM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiTuIJKMediaExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MiTuIJKMediaExample.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5A04E3527980AFE005694B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2182E5910D2C3E0ACA424D09 /* Pods-MiTuIJKMediaExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TFF7FMGCM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiTuIJKMediaExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MiTuIJKMediaExample.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A04E1527980AFB005694B6 /* Build configuration list for PBXProject "MiTuIJKMediaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A04E3127980AFE005694B6 /* Debug */,
+				A5A04E3227980AFE005694B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A04E3327980AFE005694B6 /* Build configuration list for PBXNativeTarget "MiTuIJKMediaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A04E3427980AFE005694B6 /* Debug */,
+				A5A04E3527980AFE005694B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A04E1227980AFB005694B6 /* Project object */;
+}

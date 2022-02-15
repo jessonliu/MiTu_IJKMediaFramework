@@ -1,0 +1,16 @@
+PODS:
+  - MiTu_IJKMediaFramework (1.0.0)
+
+DEPENDENCIES:
+  - MiTu_IJKMediaFramework (from `../`)
+
+EXTERNAL SOURCES:
+  MiTu_IJKMediaFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MiTu_IJKMediaFramework: b7c6adbd69727256fa2062122fb82a371d0a39d3
+
+PODFILE CHECKSUM: 26a98530b6460e8fd3529cafa9139339d7f5d12a
+
+COCOAPODS: 1.11.2
